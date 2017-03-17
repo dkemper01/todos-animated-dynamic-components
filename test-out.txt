@@ -1,0 +1,1326 @@
+[33m19 02 2017 11:17:27.465:WARN [watcher]: [39mPattern "/Users/Dan/Documents/PoC/angular2-animations/todos/src/assets/**" does not match any file.
+[33m19 02 2017 11:17:35.160:WARN [karma]: [39mNo captured browser, open http://localhost:9876/
+[32m19 02 2017 11:17:35.167:INFO [karma]: [39mKarma v1.2.0 server started at http://localhost:9876/
+[32m19 02 2017 11:17:35.167:INFO [launcher]: [39mLaunching browser Chrome with unlimited concurrency
+[32m19 02 2017 11:17:35.174:INFO [launcher]: [39mStarting browser Chrome
+[32m19 02 2017 11:17:36.258:INFO [Chrome 56.0.2924 (Mac OS X 10.11.6)]: [39mConnected on socket /#S5XbFM62zDe4-f-XAAAA with id 60459976
+Chrome 56.0.2924 (Mac OS X 10.11.6): Executed 0 of 6 SUCCESS (0 secs / 0 secs)
+[1A[2KChrome 56.0.2924 (Mac OS X 10.11.6) AppComponent should create the app FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+		</div>
+		<div class="small-12 medium-6 pages">
+			[ERROR ->]<router-outlet></router-outlet>
+		</div>
+		<div class="small-12 medium-6 pages">
+	"): AppComponent@49:2
+	Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+	1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+	2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+	 ("
+		</div>
+		<div class="small-12 medium-6 pages">
+			<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+		</div>
+	</div>"): AppComponent@52:18
+	'dynamic-loader' is not a known element:
+	1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+	2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+		</div>
+		<div class="small-12 medium-6 pages">
+			[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+		</div>
+	</div>"): AppComponent@52:2
+	Error: Template parse errors:
+	    at SyntaxError.ZoneAwareError (webpack:///~/zone.js/dist/zone.js:811:0 <- src/test.ts:71954:33)
+	    at SyntaxError.BaseError [as constructor] (webpack:///~/@angular/compiler/src/facade/errors.js:26:0 <- src/test.ts:56007:16)
+	    at new SyntaxError (webpack:///~/@angular/compiler/src/util.js:151:0 <- src/test.ts:5515:16)
+	    at TemplateParser.parse (webpack:///~/@angular/compiler/src/template_parser/template_parser.js:140:0 <- src/test.ts:16942:19)
+	    at JitCompiler._compileTemplate (webpack:///~/@angular/compiler/src/jit/compiler.js:362:25 <- src/test.ts:39329:68)
+	    at webpack:///~/@angular/compiler/src/jit/compiler.js:245:47 <- src/test.ts:39212:62
+	    at Set.forEach (native)
+	    at JitCompiler._compileComponents (webpack:///~/@angular/compiler/src/jit/compiler.js:245:0 <- src/test.ts:39212:19)
+	    at createResult (webpack:///~/@angular/compiler/src/jit/compiler.js:147:0 <- src/test.ts:39114:19)
+	    at JitCompiler._compileModuleAndAllComponents (webpack:///~/@angular/compiler/src/jit/compiler.js:151:0 <- src/test.ts:39118:88)
+	    at JitCompiler.compileModuleAndAllComponentsSync (webpack:///~/@angular/compiler/src/jit/compiler.js:98:0 <- src/test.ts:39065:21)
+	    at TestingCompilerImpl.compileModuleAndAllComponentsSync (webpack:///~/@angular/compiler/bundles/compiler-testing.umd.js:482:0 <- src/test.ts:55677:35)
+	    at TestBed._initIfNeeded (webpack:///~/@angular/core/bundles/core-testing.umd.js:761:0 <- src/test.ts:7971:40)
+	    at TestBed.createComponent (webpack:///~/@angular/core/bundles/core-testing.umd.js:844:0 <- src/test.ts:8054:18)
+	    at Function.TestBed.createComponent (webpack:///~/@angular/core/bundles/core-testing.umd.js:673:0 <- src/test.ts:7883:33)
+Chrome 56.0.2924 (Mac OS X 10.11.6): Executed 1 of 6 (1 FAILED) (0 secs / 0.137 secs)
+[1A[2KERROR: 'Unhandled Promise rejection:', 'Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', SyntaxError{__zone_symbol__error: Error{originalStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', zoneAwareStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)'}, stack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', name: 'Error', message: 'Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2', originalStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', zoneAwareStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', toString: function () { ... }, toSource: function () { ... }, _nativeError: Error{__zone_symbol__error: Error{originalStack: ..., zoneAwareStack: ...}, stack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56012:27) [ProxyZone]
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16) [ProxyZone]
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19) [ProxyZone]
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68) [ProxyZone]
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62 [ProxyZone]
+    at Set.forEach (native) [ProxyZone]
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19) [ProxyZone]
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19) [ProxyZone]
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39) [ProxyZone]
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43) [ProxyZone => ProxyZone]
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57 [ProxyZone]', name: 'Error', message: 'Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2', originalStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56012:27)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', zoneAwareStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56012:27) [ProxyZone]
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16) [ProxyZone]
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19) [ProxyZone]
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68) [ProxyZone]
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62 [ProxyZone]
+    at Set.forEach (native) [ProxyZone]
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19) [ProxyZone]
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19) [ProxyZone]
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39) [ProxyZone]
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43) [ProxyZone => ProxyZone]
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57 [ProxyZone]', toString: function () { ... }, toSource: function () { ... }}, __zone_symbol__stack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', __zone_symbol__message: 'Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2'}, 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)'
+Chrome 56.0.2924 (Mac OS X 10.11.6): Executed 1 of 6 (1 FAILED) (0 secs / 0.137 secs)
+[1A[2KERROR: Error{__zone_symbol__error: Error{originalStack: 'Error: Uncaught (in promise): Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)
+    at ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71644:31)
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71629:17)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:17
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52115:39)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71417:40)
+    at Zone.runTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71294:47)
+    at drainMicroTaskQueue (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71576:35)', zoneAwareStack: 'Error: Uncaught (in promise): Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71644:31) [ProxyZone]
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71629:17) [ProxyZone]
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:17 [ProxyZone]
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52115:39) [ProxyZone]
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71417:40) [ProxyZone]
+    at Zone.runTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71294:47) [<root> => ProxyZone]
+    at drainMicroTaskQueue (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71576:35) [<root>]'}, stack: 'Error: Uncaught (in promise): Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71644:31) [ProxyZone]
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71629:17) [ProxyZone]
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:17 [ProxyZone]
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52115:39) [ProxyZone]
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71417:40) [ProxyZone]
+    at Zone.runTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71294:47) [<root> => ProxyZone]
+    at drainMicroTaskQueue (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71576:35) [<root>]', name: 'Error', message: 'Uncaught (in promise): Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', originalStack: 'Error: Uncaught (in promise): Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)
+    at ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71644:31)
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71629:17)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:17
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52115:39)
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71417:40)
+    at Zone.runTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71294:47)
+    at drainMicroTaskQueue (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71576:35)', zoneAwareStack: 'Error: Uncaught (in promise): Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71644:31) [ProxyZone]
+    at resolvePromise (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71629:17) [ProxyZone]
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:17 [ProxyZone]
+    at ProxyZoneSpec.onInvokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52115:39) [ProxyZone]
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71417:40) [ProxyZone]
+    at Zone.runTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71294:47) [<root> => ProxyZone]
+    at drainMicroTaskQueue (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71576:35) [<root>]', toString: function () { ... }, toSource: function () { ... }, rejection: SyntaxError{__zone_symbol__error: Error{originalStack: ..., zoneAwareStack: ...}, stack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', name: 'Error', message: 'Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2', originalStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', zoneAwareStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', toString: function () { ... }, toSource: function () { ... }, _nativeError: Error{__zone_symbol__error: ..., stack: ..., name: ..., message: ..., originalStack: ..., zoneAwareStack: ..., toString: ..., toSource: ..., __zone_symbol__stack: ..., __zone_symbol__name: ..., __zone_symbol__message: ..., __zone_symbol__originalStack: ..., __zone_symbol__zoneAwareStack: ...}, __zone_symbol__stack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', __zone_symbol__message: 'Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2', __zone_symbol__name: 'Error', __zone_symbol__originalStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)', __zone_symbol__zoneAwareStack: 'Error: Template parse errors:
+'router-outlet' is not a known element:
+1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+2. If 'router-outlet' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<router-outlet></router-outlet>
+	</div>
+	<div class="small-12 medium-6 pages">
+"): AppComponent@49:2
+Can't bind to 'tips' since it isn't a known property of 'dynamic-loader'.
+1. If 'dynamic-loader' is an Angular component and it has 'tips' input, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message.
+ ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		<dynamic-loader [ERROR ->][tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:18
+'dynamic-loader' is not a known element:
+1. If 'dynamic-loader' is an Angular component, then verify that it is part of this module.
+2. If 'dynamic-loader' is a Web Component then add "CUSTOM_ELEMENTS_SCHEMA" to the '@NgModule.schemas' of this component to suppress this message. ("
+	</div>
+	<div class="small-12 medium-6 pages">
+		[ERROR ->]<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>"): AppComponent@52:2
+    at SyntaxError.ZoneAwareError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71954:33)
+    at SyntaxError.BaseError [as constructor] (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:56007:16)
+    at new SyntaxError (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:5515:16)
+    at TemplateParser.parse (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:16942:19)
+    at JitCompiler._compileTemplate (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39329:68)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:62
+    at Set.forEach (native)
+    at JitCompiler._compileComponents (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39212:19)
+    at createResult (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:39114:19)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71385:26)
+    at ProxyZoneSpec.onInvoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:52091:39)
+    at ZoneDelegate.invoke (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71384:32)
+    at Zone.run (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71256:43)
+    at http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71678:57
+    at ZoneDelegate.invokeTask (http://localhost:9876/base/src/test.ts?cd5b45e1be037005a1237ce21d3b69b8fbf050cd:71418:35)'}, promise: ZoneAwarePromise{__zone_symbol__state: 0, __zone_symbol__value: SyntaxError{__zone_symbol__error: ..., stack: ..., name: ..., message: ..., originalStack: ..., zoneAwareStack: ..., toString: ..., toSource: ..., _nativeError: ..., __zone_symbol__stack: ..., __zone_symbol__message: ..., __zone_symbol__name: ..., __zone_symbol__originalStack: ..., __zone_symbol__zoneAwareStack: ...}}, zone: Zone{_properties: Object{ProxyZoneSpec: ...}, _parent: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, _name: 'ProxyZone', _zoneDelegate: ZoneDelegate{_taskCounts: ..., zone: ..., _parentDelegate: ..., _forkZS: ..., _forkDlgt: ..., _forkCurrZone: ..., _interceptZS: ..., _interceptDlgt: ..., _interceptCurrZone: ..., _invokeZS: ..., _invokeDlgt: ..., _invokeCurrZone: ..., _handleErrorZS: ..., _handleErrorDlgt: ..., _handleErrorCurrZone: ..., _scheduleTaskZS: ..., _scheduleTaskDlgt: ..., _scheduleTaskCurrZone: ..., _invokeTaskZS: ..., _invokeTaskDlgt: ..., _invokeTaskCurrZone: ..., _cancelTaskZS: ..., _cancelTaskDlgt: ..., _cancelTaskCurrZone: ..., _hasTaskZS: ..., _hasTaskDlgt: ..., _hasTaskCurrZone: ...}}, task: ZoneTask{runCount: 1, type: 'microTask', zone: Zone{_properties: ..., _parent: ..., _name: ..., _zoneDelegate: ...}, source: 'Promise.then', data: undefined, scheduleFn: undefined, cancelFn: null, callback: function () { ... }, invoke: function () { ... }}}
+Chrome 56.0.2924 (Mac OS X 10.11.6): Executed 1 of 6 (1 FAILED) (0 secs / 0.137 secs)
+[1A[2KChrome 56.0.2924 (Mac OS X 10.11.6): Executed 2 of 6 (1 FAILED) (0 secs / 0.223 secs)
+[1A[2KChrome 56.0.2924 (Mac OS X 10.11.6): Executed 3 of 6 (1 FAILED) (0 secs / 0.292 secs)
+[1A[2KChrome 56.0.2924 (Mac OS X 10.11.6) LoadDynamicDirective should create FAILED
+	Error: Cannot create the component LoadDynamicDirective as it was not imported into the testing module!
+	    at TestBed.createComponent (webpack:///~/@angular/core/bundles/core-testing.umd.js:847:0 <- src/test.ts:8057:23) [ProxyZone]
+	    at Function.TestBed.createComponent (webpack:///~/@angular/core/bundles/core-testing.umd.js:673:0 <- src/test.ts:7883:33) [ProxyZone]
+	    at Object.<anonymous> (webpack:///src/app/load-dynamic.directive.spec.ts:18:22 <- src/test.ts:67774:37) [ProxyZone]
+	    at ProxyZoneSpec.onInvoke (webpack:///~/zone.js/dist/proxy.js:79:0 <- src/test.ts:52091:39) [ProxyZone]
+	    at Zone.run (webpack:///~/zone.js/dist/zone.js:113:0 <- src/test.ts:71256:43) [ProxyZone => ProxyZone]
+	    at Object.<anonymous> (webpack:///~/zone.js/dist/jasmine-patch.js:102:0 <- src/test.ts:51806:34) [ProxyZone]
+	    at webpack:///~/@angular/core/bundles/core-testing.umd.js:91:0 <- src/test.ts:7301:21 [ProxyZone]
+	Expected undefined to be truthy.
+	    at Object.<anonymous> (webpack:///src/app/load-dynamic.directive.spec.ts:24:22 <- src/test.ts:67779:27) [ProxyZone]
+	    at ProxyZoneSpec.onInvoke (webpack:///~/zone.js/dist/proxy.js:79:0 <- src/test.ts:52091:39) [ProxyZone]
+	    at Zone.run (webpack:///~/zone.js/dist/zone.js:113:0 <- src/test.ts:71256:43) [ProxyZone => ProxyZone]
+	    at Object.<anonymous> (webpack:///~/zone.js/dist/jasmine-patch.js:102:0 <- src/test.ts:51806:34) [ProxyZone]
+Chrome 56.0.2924 (Mac OS X 10.11.6): Executed 4 of 6 (2 FAILED) (0 secs / 0.323 secs)
+[1A[2KChrome 56.0.2924 (Mac OS X 10.11.6): Executed 5 of 6 (2 FAILED) (0 secs / 0.35 secs)
+[1A[2KChrome 56.0.2924 (Mac OS X 10.11.6): Executed 6 of 6 (2 FAILED) (0 secs / 0.384 secs)
+[1A[2KChrome 56.0.2924 (Mac OS X 10.11.6): Executed 6 of 6 (2 FAILED) (0.492 secs / 0.384 secs)

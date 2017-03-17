@@ -1,3 +1,64 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+	<div class="row">
+		<ul>
+			<li>
+				<a routerLink="howTo">How-to</a>
+			</li>
+			<li>
+				<a routerLink="examples">Examples</a>
+			</li>
+		</ul>
+	</div>
+</header>
+<div class="row">
+	<div class="panel" [@focusPanel]='state'>
+<!--		Event bindings, using the canonical, form on-focus and on-focusout, are added here.-->
+		<input #noteItem type="text" placeholder="Add an item here." (focus)="toggleFocus()" (focusout)="toggleFocus()" (keyup.enter)="submitItem(noteItem.value)">
+		<p id="subtxt" [@note]='state'>Hit enter to add</p>
+	</div>
+</div>
+<div class="row">
+<!--
+	Foundation for Sites has three core breakpoints:
+
+		Small: any screen.
+		Medium: any screen 640 pixels or wider.
+		Large: any screen 1024 pixels or wider.
+
+	/* Small only */
+	@media screen and (max-width: 39.9375em) {}
+	/* Medium and up */
+	@media screen and (min-width: 40em) {}
+	/* Medium only */
+	@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
+	/* Large and up */
+	@media screen and (min-width: 64em) {}
+	/* Large only */
+	@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+-->
+	<div class="small-12 medium-6">
+		<div class="panel nplr">
+			<!--
+				NgFor provides several exported values that can be aliased to local variables:
+
+				* index will be set to the current loop iteration for each template context.
+				* first will be set to a boolean value indicating whether the item is the first one in the iteration.
+				* last will be set to a boolean value indicating whether the item is the last one in the iteration.
+				* even will be set to a boolean value indicating whether this item has an even index.
+				* odd will be set to a boolean value indicating whether this item has an odd index.
+			-->
+			<div class="item-container" *ngFor="let item of ourItems; let i = index" [attr.data-index]="i" [@itemEnter]="state">
+				<div class="identifier">
+				</div>
+				<p>{{item}}</p>
+				<a (click)="removeItem($event, i)">X</a>
+			</div>
+		</div>
+	</div>
+	<div class="small-12 medium-6 pages">
+		<router-outlet></router-outlet>
+	</div>
+	<div class="pages">
+		<dynamic-loader [tips]="tips"></dynamic-loader>
+	</div>
+</div>

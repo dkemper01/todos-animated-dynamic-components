@@ -1,10 +1,10 @@
-import { TodosPage } from './app.po';
+import { UpgradeProjectPage } from './app.po';
 
-describe('todos App', function() {
-  let page: TodosPage;
+describe('upgrade-project App', () => {
+  let page: UpgradeProjectPage;
 
   beforeEach(() => {
-    page = new TodosPage();
+    page = new UpgradeProjectPage();
   });
 
   it('should display message saying app works', () => {
