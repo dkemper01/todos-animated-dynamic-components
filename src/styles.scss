@@ -9,33 +9,34 @@ $highlight-color: #ff3a89;
 
 * {
     font-family: 'Raleway';
-    font-size:20px;
-    color:#fff;
+    font-size: 12pt;
+    color: #fff;
 }
 body {
-    background-color:$primary-color;
-    padding: 7rem 0;
+    background-color: $primary-color;
+    padding: 6rem 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 ul {
     list-style-type:none;
     margin:0 0 4rem 1em;
 }
+
 ul li {
-    display:inline;
-    float:left;
-    margin-right:5rem;
+    display: inline;
+    margin-right: 4rem;
 }
+
 ul li a {
     color:#fff;
-    text-transform:uppercase;
-    font-size:1.3rem;
-}
-.panel {
-    background: $secondary-color;
-    padding:3rem;
-    width:100%;
-    margin-bottom:3rem;
+    text-transform: uppercase;
+    font-size: 1.0rem;
 }
 
 input {
@@ -43,9 +44,9 @@ input {
     border:none !important;
     box-shadow:none !important;
     border-bottom: 1px solid #4d575d !important;
-    font-size:1.9rem !important;
+    font-size: 1.25rem !important;
     color:#fff !important;
-    font-weight:200;
+    font-weight: 200;
     padding: 0 0 15px 0 !important;
 }
 
@@ -65,52 +66,46 @@ input {
    color: #707374 !important;  
 }
 p#subtxt {
-    color:$sub-txt;
-    text-transform:uppercase;
-    letter-spacing:2px;
-    font-size:.7em;
-    margin-bottom:0;
-}
-
-.nplr {
-    padding-left:0;
-    padding-right:0;
+    color: $sub-txt;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .7em;
+    margin-bottom: 0;
 }
 
 .item-container {
-    background:$dark-color;
-    height:65px;
-    margin-bottom:2px;
+    border-left: 4px solid hotpink;
+    background: $dark-color;
+    height: 65px;
+    margin-bottom: 2px;
 }
 
 .identifier {
-    background-color:$highlight-color;
-    width:1%;
-    display:inline;
-    float:left;
-    height:65px;
+    background-color: $highlight-color;
+    display: inline;
 }
 
 .item-container p, .item-container a {
-    display:inline;
-    float:left;
+    display: inline;
 }
 
 .item-container p {
-    width:85%;
-    margin:17px 0 0 0;
-		padding:0;
-    text-indent:30px;
+    width: 85%;
+    margin: 18px 0 0 0;
+    padding: 0;
+    text-indent: 30px;
+    display: inline-block;
+
 }
 
 .item-container a {
-    width:11%;
-    margin-top:17px;
-    text-align:center;
+    width: 11%;
+    margin-top: 17px;
+    text-align: center;
 }
 
 .clear {
-    clear:both;
+    clear: both;
 }
 
 .pages {
@@ -118,12 +113,24 @@ p#subtxt {
 }
 
 .pages p, .pages ul li {
-    color:#7b878e;
-    clear:both;
+    color: #7b878e;
+    clear: both;
+    display: block;
 }
 
-h2 {
-    font-size:1.3rem;
-    margin-bottom: 20px;
-    text-transform:uppercase;
+.panel {
+    background: $secondary-color;
+    padding: 2.25rem;
+    width: 100%;
+    margin-bottom: 3rem;
 }
+
+.nplr {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row {
+    max-width: 60rem;
+}
+

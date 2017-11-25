@@ -11,10 +11,12 @@
 	</div>
 </header>
 <div class="row">
-	<div class="panel" [@focusPanel]='state'>
-<!--		Event bindings, using the canonical, form on-focus and on-focusout, are added here.-->
-		<input #noteItem type="text" placeholder="Add an item here." (focus)="toggleFocus()" (focusout)="toggleFocus()" (keyup.enter)="submitItem(noteItem.value)">
-		<p id="subtxt" [@note]='state'>Hit enter to add</p>
+	<div class="column">
+		<div class="panel" [@focusPanel]='state'>
+	<!--		Event bindings, using the canonical, form on-focus and on-focusout, are added here.-->
+			<input #noteItem type="text" placeholder="Add an item here." (focus)="toggleFocus()" (focusout)="toggleFocus()" (keyup.enter)="submitItem(noteItem.value)">
+			<p id="subtxt" [@note]='state'>Hit enter to add</p>
+		</div>
 	</div>
 </div>
 <div class="row">
@@ -36,7 +38,7 @@
 	/* Large only */
 	@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
 -->
-	<div class="small-12 medium-6">
+	<div class="column small-12 medium-6">
 		<div class="panel nplr">
 			<!--
 				NgFor provides several exported values that can be aliased to local variables:
@@ -55,10 +57,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="small-12 medium-6 pages">
+	<div class="column small-12 medium-6 pages">
 		<router-outlet></router-outlet>
 	</div>
-	<div class="pages">
+</div>
+<div class="row">
+	<div class="column pages">
 		<dynamic-loader [tips]="tips"></dynamic-loader>
 	</div>
 </div>
