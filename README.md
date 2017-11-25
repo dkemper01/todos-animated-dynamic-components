@@ -1,6 +1,14 @@
 # Todos
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
+This repo was built as I followed along with Gary Simon's Pluralsight course on Angular animations. You can read more about how to animate with Angular 5 here:
+
+(https://angular.io/guide/animations)
+
+If you're interested in working with dynamic components, check out a much more detailed breakdown of dynamic components here:
+ (http://dankemper.net/t3/index.php/blog-menu-item/angular-dynamic-components-menu-item)
+
+Animated todos with dynamic components has been fully upgraded to Angular 5. Checkout the Angular 5 update branch here: 
+(https://github.com/dkemper01/todos-animated-dynamic-components/tree/angular5-update-1).
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
